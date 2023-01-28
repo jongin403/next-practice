@@ -6,17 +6,14 @@ export default function NavBar() {
   return (
     <nav>
       <Link href="/">
-        <div>Home</div>
+        <div className="link-name">Home</div>
       </Link>
       <Link href="/about">
-        <div>About</div>
+        <div className="link-name">About</div>
       </Link>
       <style jsx>{`
         nav {
           background-color: tomato;
-        }
-        div {
-          color: black;
         }
       `}</style>
     </nav>
